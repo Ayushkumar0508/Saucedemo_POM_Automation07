@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-cd "$(dirname "$0")/.."
+cd "$(dirname \"$0\")/.."
 echo "[QUICK SETUP] Installing dependencies and browsers..."
 npm install
 npx playwright install
